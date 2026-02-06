@@ -1,0 +1,41 @@
+<menu>
+    @for (item of menu(); track item) {
+    <app-card-item [educationLevel]="educationalLevel()" [title]="item.title" [icon]="item.icon" [suportText]="item.suportText" [animation]="item.animation" />
+    }
+</menu>
+
+<fieldset class="educ-level__container">
+    <legend>Selecione o nível de escolaridade</legend>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="IF1" value="IF1" (change)="changeEducationalLevel('IF1')">
+        <label for="educationalLevel">Infantil 1</label>
+    </div>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="IF2" value="IF2" (change)="changeEducationalLevel('IF2')">
+        <label for="educationalLevel">Infantil 1</label>
+    </div>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="EF1" value="EF1" (change)="changeEducationalLevel('EF1')"
+            checked>
+        <label for="educationalLevel">Ensino Fundamental 1</label>
+    </div>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="EF2" value="EF2" (change)="changeEducationalLevel('EF2')">
+        <label for="educationalLevel">Ensino Fundamental 2</label>
+    </div>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="EM" value="EM" (change)="changeEducationalLevel('EM')">
+        <label for="educationalLevel">Ensino Médio</label>
+    </div>
+
+    <div class="educ-level__item">
+        <input type="radio" name="educationalLevel" id="SUP" value="SUP" (change)="changeEducationalLevel('SUP')">
+        <label for="educationalLevel">Ensino Superior</label>
+    </div>
+
+</fieldset>
