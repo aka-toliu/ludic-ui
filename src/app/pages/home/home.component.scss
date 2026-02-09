@@ -1,3 +1,22 @@
-.educ-level__container{
-    width: fit-content;
+:host{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.menu-cards {
+    display: flex;
+    gap: 2rem;
+    height: 50dvh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: var(--bg);
+}
+
+.educ-level__container {
+    width: 100%;
+    gap: 1rem;
+    display: flex;
+    padding: 1rem;
 }

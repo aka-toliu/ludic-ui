@@ -1,12 +1,14 @@
 import { Component, input } from '@angular/core';
 import { IconComponent } from '../icon/icon.component';
 import { ButtonComponent } from '../button/button.component';
+import { NgClass } from '@angular/common';
+
 
 
 @Component({
   selector: 'app-card-item',
   standalone: true,
-  imports: [IconComponent, ButtonComponent],
+  imports: [IconComponent, ButtonComponent, NgClass],
   templateUrl: './card-item.component.html',
   styleUrl: './card-item.component.scss'
 })

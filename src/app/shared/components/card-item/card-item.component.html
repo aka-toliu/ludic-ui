@@ -1,8 +1,20 @@
-<app-icon/>
+<div class="card-item" [ngClass]="educationLevel()" [attr.alt]="suportText()">
 
-<h2>{{ title() }}</h2>
-<p>{{ educationLevel() }}</p>
+    <div class="card-item__icon">
+        <app-icon name="{{ icon() }}" educationLevel="{{ educationLevel() }}" />
+    </div>
 
-@defer(when suportText()){
-    <p>{{ suportText() }}</p>
-}
+    <div class="card-item__info">
+        @if (educationLevel() !== 'EI') {
+            <h2>{{ title() }}</h2>
+        }
+        <!-- <p>{{ educationLevel() }}</p> -->
+
+        @defer(when suportText()) {
+            @if (educationLevel() === 'EM' || educationLevel() === 'SUP') {
+            <p>{{ suportText() }}</p>
+            }
+        }
+    </div>
+
+</div>

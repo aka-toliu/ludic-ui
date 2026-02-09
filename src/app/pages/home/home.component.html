@@ -1,4 +1,4 @@
-<menu>
+<menu class="menu-cards">
     @for (item of menu(); track item) {
     <app-card-item [educationLevel]="educationalLevel()" [title]="item.title" [icon]="item.icon" [suportText]="item.suportText" [animation]="item.animation" />
     }
@@ -8,13 +8,8 @@
     <legend>Selecione o nível de escolaridade</legend>
 
     <div class="educ-level__item">
-        <input type="radio" name="educationalLevel" id="IF1" value="IF1" (change)="changeEducationalLevel('IF1')">
-        <label for="educationalLevel">Infantil 1</label>
-    </div>
-
-    <div class="educ-level__item">
-        <input type="radio" name="educationalLevel" id="IF2" value="IF2" (change)="changeEducationalLevel('IF2')">
-        <label for="educationalLevel">Infantil 1</label>
+        <input type="radio" name="educationalLevel" id="EI" value="EI" (change)="changeEducationalLevel('EI')">
+        <label for="educationalLevel">Educação Infantil</label>
     </div>
 
     <div class="educ-level__item">
