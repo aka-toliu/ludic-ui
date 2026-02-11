@@ -13,7 +13,7 @@ export class HomeComponent {
   public menu = signal([
     { title: 'Disciplinas', path: '/', icon: 'book', suportText: 'Veja as disciplinas disponíveis', animation: true },
     { title: 'Boletim', path: '/', icon: 'clipboard-list', suportText: 'Acompanhe seu desempenho', animation: true },
-    { title: 'Tarefas', path: '/', icon: 'check', suportText: 'Gerencie suas tarefas', animation: true },
+    { title: 'Tarefas', path: '/', icon: 'exercise', suportText: 'Gerencie suas tarefas', animation: true },
   ]);
 
   public educationalLevel = signal('EF1');
