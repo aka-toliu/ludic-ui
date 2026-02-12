@@ -1,0 +1,153 @@
+{
+    "EI": [
+        {
+            "title": "Livros interativos",
+            "icon": "discipline",
+            "path": "/EI/livros-interativos",
+            "color": "#FFB6C1",
+            "suportText": "Explore livros interativos para crianças"
+        },
+        {
+            "title": "Desenho",
+            "icon": "art",
+            "path": "/EI/arte",
+            "color": "#FFB6C1",
+            "suportText": "Inspire-se com atividades de arte"
+        },
+        {
+            "title": "Atividades",
+            "icon": "exercise",
+            "path": "/EI/actividades",
+            "color": "#FFB6C1",
+            "suportText": "Descubra atividades lúdicas para crianças"
+        }
+        
+    ],
+    "EF1": [
+        {
+            "title": "Disciplinas",
+            "icon": "discipline",
+            "path": "/EF1/disciplinas",
+            "color": "#ADD8E6",
+            "suportText": "Veja todas as disciplinas disponíveis"
+        },
+        {
+            "title": "Tarefa de Casa",
+            "icon": "homework",
+            "path": "/EF1/tarefa-casa",
+            "color": "#ADD8E6",
+            "suportText": "Acompanhe suas tarefas de casa"
+        },
+        {
+            "title": "Exercícios",
+            "icon": "exercise",
+            "path": "/EF1/exercicios",
+            "color": "#ADD8E6",
+            "suportText": "Pratique com exercícios interativos"
+        },
+        {
+            "title": "Artes",
+            "icon": "art",
+            "path": "/EF1/artes",
+            "color": "#ADD8E6",
+            "suportText": "Explore atividades artísticas"
+        }
+    ],
+    "EF2": [
+        {
+            "title": "Disciplinas",
+            "icon": "discipline",
+            "path": "/EF2/disciplinas",
+            "color": "#FFB6C1",
+            "suportText": "Veja todas as disciplinas disponíveis"
+        },
+        {
+            "title": "Laboratório",
+            "icon": "lab",
+            "path": "/EF2/boletim",
+            "color": "#FFB6C1",
+            "suportText": "Acompanhe seu desempenho escolar"
+        },
+        {
+            "title": "Provas e Trabalhos",
+            "icon": "exercise",
+            "path": "/EF2/provas-trabalhos",
+            "color": "#FFB6C1",
+            "suportText": "Veja suas provas e trabalhos"
+        },
+        {
+            "title": "Conquistas",
+            "icon": "trophy",
+            "path": "/EF2/conquistas",
+            "color": "#FFB6C1",
+            "suportText": "Acompanhe suas conquistas e medalhas"
+        }
+    ],
+    "EM": [
+        {
+            "title": "Disciplinas",
+            "icon": "discipline",
+            "path": "/medio/disciplinas",
+            "color": "#ADD8E6",
+            "suportText": "Veja todas as disciplinas disponíveis"
+        },
+        {
+            "title": "Notas e Faltas",
+            "icon": "performance",
+            "path": "/medio/notas-faltas",
+            "color": "#ADD8E6",
+            "suportText": "Acompanhe suas notas e faltas"
+        },
+        {
+            "title": "Avaliações e Simulados",
+            "icon": "exercise",
+            "path": "/medio/avaliacoes-simulados",
+            "color": "#ADD8E6",
+            "suportText": "Prepare-se para avaliações e simulados"
+        },
+        {
+            "title": "Redação",
+            "icon": "write",
+            "path": "/medio/redacao",
+            "color": "#ADD8E6",
+            "suportText": "Dicas e práticas para redação"
+        }
+    ],
+    "SUP": [
+        {
+            "title": "Disciplinas",
+            "icon": "biblio",
+            "path": "/superior/disciplinas",
+            "color": "#ADD8E6",
+            "suportText": "Veja todas as disciplinas disponíveis"
+        },
+        {
+            "title": "Aulas ao vivo",
+            "icon": "video",
+            "path": "/superior/aulas-ao-vivo",
+            "color": "#ADD8E6",
+            "suportText": "Participe de aulas ao vivo e interativas"
+        },
+        {
+            "title": "Atividades complementares",
+            "icon": "activities",
+            "path": "/superior/atividades-complementares",
+            "color": "#ADD8E6",
+            "suportText": "Gerencie suas atividades."
+        },
+        {
+            "title": "Exercícios",
+            "icon": "exercise",
+            "path": "/superior/exercicios",
+            "color": "#ADD8E6",
+            "suportText": "Pratique com exercícios interativos"
+        },
+        {
+            "title": "Secretaria",
+            "icon": "performance",
+            "path": "/superior/secretaria",
+            "color": "#ADD8E6",
+            "suportText": "Notas, histórico e informações"
+        }
+    ]
+}

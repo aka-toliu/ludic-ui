@@ -12,7 +12,7 @@ export class IconComponent {
 
   public name = input.required<string>();
   public educationLevel = input.required<string>();
-  public iconPath = computed(() => `icons/${this.name()}-${this.educationLevel()}.svg`);
+  public iconPath = computed(() => `icons/${this.educationLevel()}-${this.name()}.png`);
   public size = computed(() => {
     switch (this.educationLevel()) {
         case 'EI':
@@ -20,11 +20,11 @@ export class IconComponent {
         case 'EF1':
           return 100;
         case 'EF2':
-          return 80;
-        case 'EM':
           return 60;
+        case 'EM':
+          return 50;
         case 'SUP':
-          return 40;
+          return 36;
         default:
           return 32;
       }
